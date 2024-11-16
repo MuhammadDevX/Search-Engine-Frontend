@@ -6,7 +6,7 @@ import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { Textarea } from "@/components/ui/textarea";
 import { useToast } from "@/hooks/use-toast";
-import "./globals.css";
+import "../globals.css";
 export default function AddData() {
   const [jsonData, setJsonData] = useState("");
   const [loading, setLoading] = useState(false);
